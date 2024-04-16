@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Psudo Classes</title>
+        <style>
+            a{
+                color: blue;
+            }
+            a:hover{
+                color: red;
+            }
+            a:active{
+                color: green;
+            }
+            a:visited{
+                color: brown;
+            }
+            ul li:first-child{
+                font-weight: bold;
+            }
+            ul li:last-child{
+                font-style: italic;
+            }
+            ul li:nth-child(3){
+                color: red;
+            }
+            ul li:nth-child(2n){
+                background: cyan;
+            }
+            ul li:nth-last-child(2){
+                color: darkred;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#one">Link One</a><br>
+        <a href="#two">Link Two</a><br>
+        <ul>
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+            <li>Item Four</li>
+            <li>Item Five</li>
+        </ul>
+    </body>
+</html>
