@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flex Display Type</title>
+        <style>
+            .wrap{
+                display: flex;
+                /* display: inline-grid; */
+                /* display: list-item; */
+                /* display: table-cell; */
+            }
+            .wrap div{
+                flex-grow: 1;
+                background: darkorchid;
+                height: 200px;
+                margin: 10px;
+                text-align: center;
+                line-height: 200px;
+            }
+            .wrap div:first-child{
+                flex-grow: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div>A</div>
+            <div>B</div>
+            <div>C</div>
+        </div>
+    </body>
+</html>
