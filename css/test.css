@@ -2,3 +2,6 @@ body{
     background: cyan;
     color: red; /* font color */
 }
+p{
+    padding: 10px;
+}
