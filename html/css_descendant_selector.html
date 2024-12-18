@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Descendant Selector</title>
+        <style>
+            /* ul အတွင်းမှာရှိတဲ့ all li ကို အလုပ်လုပ်  */
+            ul li{
+                padding: 20px;
+                border:1px solid purple;
+            }
+            
+            /* direct child ကိုပဲ အလုပ်လုပ် */
+            /* ul > li{                       
+                padding: 20px;
+                border: 1px solid red;
+            } */
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Servers</li>
+            <li>
+                Browsers
+                <ol>
+                    <li>Chrome</li>
+                    <li>Firefox</li>
+                </ol>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+p{
+    padding: 10px;
+}
+.browser{
+    background: darkmagenta;
+}
+#popular{
+    font-weight: bold;
+}
+input[type=text]{
+    width: 400px;
+}
+h1, h2, h3{
+    color: brown;
+}

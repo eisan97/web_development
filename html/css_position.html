@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Position</title>
+        <style>
+            .box1{
+                width: 300px;
+                height: 200px;
+                background: cyan;
+                position: absolute; /* dispaly with scroll bar */
+                /* position: fixed; */ /* not display with scroll bar */
+                top: 100px;
+                left: 100px;
+                z-index: 2; 
+                opacity: 0.8;  /* ဖောက်ထွင်းမြင်နိုင်စွမ်း*/
+            }
+            .box2{
+                width: 300px;
+                height: 200px;
+                background: yellow;
+                position: absolute;
+                top: 150px;
+                left: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </body>
+</html>
